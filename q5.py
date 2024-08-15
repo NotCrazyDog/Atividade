@@ -7,7 +7,7 @@ if nota >= 0 and nota <= 10:
         print(f'{aluno} está aprovado em {disci} com nota {nota}.')
     if nota >= 5.5 and nota < 6:
         print(f'{aluno} está aprovado em {disci} com nota 6.')
-    else:
+    if nota < 5.5:
         print(f'{aluno} NÃO está aprovado em {disci} com nota {nota}.')
 else:
     print('Nota inválida, tente novamente.')
